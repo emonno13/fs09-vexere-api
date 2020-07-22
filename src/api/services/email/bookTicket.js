@@ -3,7 +3,7 @@ const fs = require("fs"); // built-in NodeJS
 const hogan = require("hogan.js") // template engine
 // const config = require("../../config/index");
 
-const template = fs.readFileSync("services/email/bookingTicketEmailTemplate.hjs.html","utf-8")
+const template = fs.readFileSync("src/api/services/email/bookingTicketEmailTemplate.hjs.html","utf-8")
 // const template = fs.readFileSync(
 //   ${__dirname}/templates/bookingTicket.hjs,
 //   "utf-8"

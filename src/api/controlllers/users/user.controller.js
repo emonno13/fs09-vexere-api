@@ -1,4 +1,4 @@
-const { User } = require("../../../../models/User")
+const { User } = require("../../models/User")
 const bcrypt = require("bcrypt");
 const { isMatch } = require("lodash");
 const jwt = require("jsonwebtoken")

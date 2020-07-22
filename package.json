@@ -4,13 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node .",
-    "start:watch": "nodemon .",
+    "start": "node ./src/index.js",
+    "start:watch": "nodemon ./src/index.js",
     "debug:watch": "DEBUG=* nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:local":"set NODE_ENV=local& node .",
-    "start:local:watch":"set NODE_ENV=local& nodemon .",
-    "start:staging":"set NODE_ENV=staging& node ."
+    "start:local:watch":"set NODE_ENV=local& nodemon ./src/index.js",
+    "start:staging":"set NODE_ENV=staging& node ./src/index.js"
   },
   "author": "",
   "license": "ISC",

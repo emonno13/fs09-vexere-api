@@ -1,4 +1,4 @@
-const { Station } = require('../../../../models/Station')
+const { Station } = require('../../models/Station')
 // const _ = require('lodash')
 const { json } = require('express')
 

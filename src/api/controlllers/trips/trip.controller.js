@@ -1,5 +1,5 @@
-const { Trip } = require('../../../../models/Trip')
-const { Seat } = require('../../../../models/Seat')
+const { Trip } = require('../../models/Trip')
+const { Seat } = require('../../models/Seat')
 const _ = require('lodash');
 
 const codeArr = [

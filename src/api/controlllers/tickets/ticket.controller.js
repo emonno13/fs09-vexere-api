@@ -1,8 +1,8 @@
-const { Ticket } = require('../../../../models/Ticket')
-const { Trip } = require('../../../../models/Trip')
-const { Seat } = require('../../../../models/Seat')
+const { Ticket } = require('../../models/Ticket')
+const { Trip } = require('../../models/Trip')
+const { Seat } = require('../../models/Seat')
 const _ = require('lodash')
-const { sendBookTicketEmail } = require('../../../../services/email/bookTicket')
+const { sendBookTicketEmail } = require('../../services/email/bookTicket')
 
 // book ticket
 const createTicket = (req, res, next) => {

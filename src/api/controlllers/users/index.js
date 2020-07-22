@@ -1,8 +1,8 @@
 const express = require('express')
 const userControllor = require('./user.controller')
-const { uploadImage } = require('../../../../middlewares/uploadImages')
-const { authenticate } = require('../../../../middlewares/auth')
-const { validatePostUser } = require('../../../../middlewares/validation/users/postUser')
+const { uploadImage } = require('../../middlewares/uploadImages')
+const { authenticate } = require('../../middlewares/auth')
+const { validatePostUser } = require('../../middlewares/validation/users/postUser')
 
 const router = express.Router()
 
