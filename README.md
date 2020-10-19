@@ -34,6 +34,7 @@ Open Terminal:
 - heroku -v
 Open new terminal at project root folder
 - heroku login || heroku login -i
+
 ![image](https://user-images.githubusercontent.com/53046415/96484258-7a22d780-1266-11eb-88ba-e0a1da7b6041.png)
 Go Dashboard → Create new app
 ![image](https://user-images.githubusercontent.com/53046415/96485444-c9690800-1266-11eb-8691-8d5c4a19cfa1.png)
@@ -43,4 +44,8 @@ make sure your github have no .lock file && package.json ( .gitignore )
 git push heroku master ( in terminal )
 ![image](https://user-images.githubusercontent.com/53046415/96487667-557b2f80-1267-11eb-8019-a0e93364006b.png)
 ![image](https://user-images.githubusercontent.com/53046415/96487869-67f56900-1267-11eb-8e20-3eb6506a9ea7.png)
-
+heroku logs --tail ( in terminal ) : check errors
+Go Dashboard → app → settings → config vars
+![image](https://user-images.githubusercontent.com/53046415/96488150-c15d9800-1267-11eb-9f1a-ce1ff303fbbf.png)
+Check again
+![image](https://user-images.githubusercontent.com/53046415/96488276-e94cfb80-1267-11eb-85fe-01ff5a9366d6.png)
